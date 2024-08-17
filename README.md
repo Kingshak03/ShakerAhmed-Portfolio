@@ -19,7 +19,7 @@ Relevant Coursework: Data Structures, Algorithms and Complexity, Computer Organi
 - Achieved a 95% satisfaction rate in IT support across 60 facilities.
 
 ## Projects
-### Connect 4 Game
+### [Connect 4 Game](https://github.com/Tasks312/Tasks-312Project)
 *Dec 2023*  
 A multiplayer game platform using **Python**, **Flask**, **ReactJS**, and **MongoDB**, supporting 500+ concurrent players with advanced security measures.
 
