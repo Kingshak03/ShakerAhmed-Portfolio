@@ -1,0 +1,140 @@
+/* Basic reset and sidebar styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 70px;
+  height: 100vh;
+  background-color: #ff7f7f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, width 0.3s ease, left 0.3s ease;
+}
+
+.sidebar--hidden {
+  transform: translateX(-100%);
+}
+
+/* Sidebar navigation */
+.sidebar__navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar__menu {
+  width: 100%;
+}
+
+.sidebar__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar__item {
+  margin: 1.5rem 0;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.sidebar__link:hover {
+  background-color: #ffaaaa;
+  cursor: pointer;
+}
+
+.sidebar__icon {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+/* Sidebar Toggle Button */
+.sidebar__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  background-color: var(--body-color);
+  border: 1px solid #e8dfec;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: 0.3s ease;
+}
+
+.sidebar__toggle:hover {
+  background-color: #ffaaaa;
+}
+
+.sidebar__toggle-icon {
+  font-size: 1.5rem;
+}
+
+/* Show the toggle button on smaller screens */
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    left: -110px;
+  }
+
+  .sidebar--open {
+    left: 0;
+  }
+
+  .sidebar__toggle {
+    display: flex;
+    left: 20px;
+  }
+
+  .sidebar__toggle--open {
+    left: 140px;
+  }
+
+  .sidebar--hidden {
+    left: -110px;
+  }
+}
+
+/* Ensure main content isn't hidden behind the sidebar */
+main {
+  margin-left: 70px;
+  padding: 1rem;
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  main {
+    margin-left: 0;
+  }
+}
+.sidebar__navigation {
+  display: flex;
+  flex-direction: column; /* add this line to stack the menu items vertically */
+  justify-content: center; /* add this line to center the menu items horizontally */
+  align-items: center; /* add this line to center the menu items vertically */
+}
