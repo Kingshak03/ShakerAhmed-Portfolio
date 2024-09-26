@@ -5,7 +5,7 @@ Welcome to the portfolio of **Shaker Ahmed**, a Computer Science student at the 
 ## Education
 **Bachelor of Science in Computer Science, Minor in Mathematics**  
 *University at Buffalo, The State University of New York*  
-*Aug 2021 – May 2025*  
+
 Relevant Coursework: Data Structures, Algorithms and Complexity, Computer Organization, Distributed Systems
 
 ## Experience
