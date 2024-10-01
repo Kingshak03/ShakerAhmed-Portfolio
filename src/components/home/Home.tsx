@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import DownloadIcon from "@mui/icons-material/Download"; // Import a download icon for the button
 
-import profilePicture from "../../assets/pictures/profilePicture.png"; // Import your profile image
+import profilePicture from "../../assets/pictures/shakerAvater.png"; // Import your profile image
 import Resum2025 from "../../assets/documents/Shaker_Ahmed_Resume_2025.pdf";
 function Home() {
   return (
