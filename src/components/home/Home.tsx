@@ -21,21 +21,21 @@ function Home() {
         {/* Social Links */}
         <div className="social_links">
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/shakerahmed"
             target="_blank"
             rel="noreferrer"
           >
             <LinkedInIcon className="social_icon" />
           </a>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/Kingshak03"
             target="_blank"
             rel="noreferrer"
           >
             <GitHubIcon className="social_icon" />
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:sahmed35@buffalo.edu"
             target="_blank"
             rel="noreferrer"
           >
