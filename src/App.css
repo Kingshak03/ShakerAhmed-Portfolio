@@ -1,5 +1,6 @@
 .main {
-  margin-left: 110px;
+  margin-left: 70px; /* Account for sidebar width */
+  transition: margin-left 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {

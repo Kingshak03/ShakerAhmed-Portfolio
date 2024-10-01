@@ -12,7 +12,7 @@ body {
 .sidebar {
   width: 70px;
   height: 100vh;
-  background-color: #ff7f7f;
+  background-color: #1d1d1d;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,6 +22,7 @@ body {
   align-items: center;
   transition: transform 0.3s ease, width 0.3s ease, left 0.3s ease;
 }
+
 
 .sidebar--hidden {
   transform: translateX(-100%);
@@ -68,7 +69,7 @@ body {
 
 .sidebar__icon {
   font-size: 1.8rem;
-  color: #000;
+  color: #ffffff;
 }
 
 /* Sidebar Toggle Button */
